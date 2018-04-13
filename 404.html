@@ -1,74 +1,103 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-<meta name="pinterest" content="nopin">
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="generator" content="Hugo 0.37.1" />
+<!DOCTYPE html> 
+<html lang="zh-ch">
+<head>
+	<title>
+	my blog : 404
 
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://orca.github.io/index.xml">
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index,follow">
+	<base href="http://orca.github.io/">
+	
+	<link rel="preload" href="http://orca.github.io/css/smorg.css" as="style">
+	<link rel="stylesheet" href="http://orca.github.io/css/smorg.css">
+	<meta name="generator" content="Hugo 0.37.1" />
 
-<link rel="canonical" href="">
+</head>
+<body>
+   
+	<nav class="navbar" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item has-text-white-ter" 
+				   href="http://orca.github.io/"><span class="has-text-weight-bold">Add params:logotype</span>
+</a>
+				<div class="navbar-burger burger" data-target="navMenu">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+			</div>
+			<div class="navbar-menu" id="navMenu">
+				<div class="navbar-end">
+					
 
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <title>404 Page not found - my blog</title>
-    
-    <link href="http://orca.github.io/css/styles.css" rel="stylesheet">
-    
 
-  </head>
+				</div>
+			</div>
+		</div>
+	</nav>
 
-  <body>
-    
-    
-    
 
-    <header class="l-header">
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://orca.github.io/">my blog</a>
-          </div>
+<section class="section" itemscope itemtype="http://schema.org/WebPage">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8 is-offset-2">
+				<article class="content">
+					<h1 class="title has-text-danger">Page Not Found</h1>
+					<p class="subtitle">The URL you've requested cannot be found on this web site.</p>
+					<p><code id="errorurl"></code></p>
+					<p>Sections of this site include:</p>
+					<ul>
+						<li><a href="http://orca.github.io/">Home</a></li>
+			
+					</ul>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
 
-          
+<footer class="footer">
+  <div class="container content">
+	<div class="has-text-centered">
+		<p>Add config: Params.footer
+		   Add config: Params.logotype 
+		   </p>
+		<hr>
+		<p class="has-text-grey is-size-7">
+		Add config: Params.subfooter 
+		Add config: Copyright 
+		</p>
+	</div>
+  </div>
+</footer>
 
-        </div>
-      </nav>
-    </header>
+<script>
+	document.getElementById("errorurl").innerHTML = document.location.origin + document.location.pathname;
+</script>
 
-    <main>
-      <div class="container">
-        
-<header class="page-header">
-  <h1>404 Page not found</h1>
-</header>
 
-      </div>
-    </main>
 
-    <footer class="l-footer">
-      <div class="container">
-        <p><span class="h-logo">&copy; my blog</span></p>
-        <aside>
-          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
-          <p><a href="https://github.com/dim0627/hugo_theme_beg">Beg</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
-        </aside>
-      </div>
-    </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
+</script>
+ 
 
-    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-  </body>
+
+</body>
 </html>
-
