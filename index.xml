@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>my blog</title>
-    <link>http://orca.github.io/</link>
+    <link>http://orca27.github.io/</link>
     <description>Recent content on my blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
     
-	<atom:link href="http://orca.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://orca27.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
